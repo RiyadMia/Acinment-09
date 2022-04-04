@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import Review from '../Review/Review';
 import './Home.css'
 const Home = () => {
@@ -8,7 +9,7 @@ const Home = () => {
       .then(res => res.json())
       .then(data =>  setCars(data))
   },[])
-   
+   let navegat =useNavigate()
     return (
         <div>
              <div className="home-contanier">
@@ -30,10 +31,12 @@ const Home = () => {
                cars.map(car=><Review
                    key={car.id}
                    car={car}
-               ></Review>)
+                  > 
+           </Review>)
    }
-                 <button className='review-btn'
-                 >See All Reviews</button>
+                
+                <button onClick={()=>navegat('/blogs')} className='review-btn'
+ >                See All Reviews</button>
                  </div>  
     );
 };
