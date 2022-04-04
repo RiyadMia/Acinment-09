@@ -1,0 +1,9 @@
+.heder-contanier a {
+  text-decoration: none;
+  margin-right: 30px;
+  background-color: aliceblue;
+  padding: 0 30px;
+}
+.heder-contanier {
+  padding: 30px;
+}

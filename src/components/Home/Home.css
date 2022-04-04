@@ -1,0 +1,17 @@
+.home-contanier {
+  margin-top: 50px;
+  display: flex;
+}
+.cars-name p {
+  margin-right: 30px;
+}
+.bast-cars img {
+  width: 500px;
+  height: 400px;
+}
+.review-btn {
+  background-color: gold;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+}

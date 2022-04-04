@@ -1,0 +1,10 @@
+.grap-container {
+  margin-top: 100px;
+  display: flex;
+}
+.margin-right {
+  margin-left: 200px;
+}
+.grap {
+  margin-left: 100px;
+}
