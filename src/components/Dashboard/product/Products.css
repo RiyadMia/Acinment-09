@@ -1,4 +1,13 @@
 img{
     width: 300px;
     height: 300px;
+    border: 1px solid lavender;
+    border-radius: 10px;
+}
+.review-cointanir{
+   
+    gap: 20px;
+}
+.img-d{
+    width: 400px;
 }

@@ -1,10 +1,18 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import useCars from '../../hooks/Hooks';
+import Products from '../Dashboard/product/Products';
 import './Review.css'
-const Review = (props) => {
-    
+const Review = () => {
+    const [products,setProducts]=useCars()
     return (
         <div className='review-cointanir'>
-            <h1>wealcome review </h1>
+            {
+               products.map(product=><Products
+                   key={product.id}
+                   product={product}
+                  > 
+                   </Products>)
+            }
         </div>
     );
 };

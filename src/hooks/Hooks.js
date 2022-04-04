@@ -5,7 +5,7 @@ const useCars =()=>{
     useEffect(()=>{
         fetch('fakedb.json')
         .then(res=>res.json())
-        .then(data => console.log(data))
+        .then(data =>  setProducts(data))
     },[])
     return [products,setProducts]
 }

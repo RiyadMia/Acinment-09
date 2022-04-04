@@ -1,15 +1,10 @@
-import React, { useEffect, useState } from 'react';
+
 import { useNavigate } from 'react-router-dom';
+import useCars from '../../hooks/Hooks';
 import Products from '../Dashboard/product/Products';
-import Review from '../Review/Review';
 import './Home.css'
 const Home = () => {
-  const [products,setProducts]=useState([])
-  useEffect(()=>{
-      fetch('fakedb.json')
-      .then(res => res.json())
-      .then(data =>  setProducts(data))
-  },[])
+  const [products,setProducts]=useCars()
    let navegat =useNavigate()
     return (
         <div>
