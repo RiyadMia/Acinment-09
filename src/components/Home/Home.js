@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import Products from '../Dashboard/product/Products';
 import Review from '../Review/Review';
 import './Home.css'
 const Home = () => {
@@ -29,15 +30,15 @@ const Home = () => {
                  <h1>Costomer Reviews (3)</h1> 
                  <div className='img-grid'>
                    {
-                       products.map(product=><Review
+                       products.map(product=><Products
                         key={product.id}
                         product={product}
                        > 
-                    </Review>)
+                    </Products>)
                    }
 
                  </div>
-                <button onClick={()=>navegat('/blogs')} className='review-btn'>See All Reviews</button>
+                <button onClick={()=>navegat('/review')} className='review-btn'>See All Reviews</button>
                  </div>  
     );
 };

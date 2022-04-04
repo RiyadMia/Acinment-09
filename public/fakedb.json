@@ -1,42 +1,42 @@
 [
     {
         "id": "1",
-        "name": "ULTRABOOST 22 SHOES",
+        "name": "READ AND BLACK CAR",
         "price": 1000,
         "stock": 20,
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH-966X59G9jFR6Y_teQNsKlzAVcPgYFYtbw&usqp=CAU"
       },
       {
         "id": "2",
-        "name": "ULTRABOOST 22 SHOES",
+        "name": "BLACK CAR-1",
         "price":2000 ,
         "stock": 20,
         "img": "https://cdn.wallpapersafari.com/63/19/PJSerV.jpg"
       },
       {
         "id": "3",
-        "name": "ULTRABOOST 22 SHOES",
+        "name": "BLACK CAR-2 ",
         "price": 2500,
         "stock": 20,
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnoRCJrdOzyX077mUCGW_-_Qw7B0gQLqlcJzK0qnKCY3cegy-VXqIVITjVH9FLRF4LWEc&usqp=CAU"
       },
       {
         "id": "4",
-        "name": "ULTRABOOST 22 SHOES",
+        "name": " WHIDTH CAR",
         "price": 3000,
         "stock": 20,
         "img": "https://www.pngitem.com/pimgs/m/330-3306529_share-this-image-transparent-background-bugatti-veyron-hd.png"
       },
       {
         "id": "5",
-        "name": "ULTRABOOST 22 SHOES",
+        "name": " YEALLOW CAR",
         "price": 3500,
         "stock": 20,
         "img": "https://cdn.pixabay.com/photo/2012/04/12/23/48/car-30990__340.png"
       },
       {
         "id": "6",
-        "name": "ULTRABOOST 22 SHOES",
+        "name": " ORANGE CAR",
         "price": 4000,
         "stock": 20,
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzeCTgEmUtg9ofYKArANWnFhIuVsXVVX29QdTThNXnVmUPHOpiOHzX29r0nI-Y06u8huk&usqp=CAU"
