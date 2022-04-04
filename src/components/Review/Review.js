@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+
 import useCars from '../../hooks/Hooks';
 import Products from '../Dashboard/product/Products';
 import './Review.css'

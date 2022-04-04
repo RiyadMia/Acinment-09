@@ -5,6 +5,7 @@ import Products from '../Dashboard/product/Products';
 import './Home.css'
 const Home = () => {
   const [products,setProducts]=useCars()
+  const sliceRsult =products.slice(0,3)
    let navegat =useNavigate()
     return (
         <div>
@@ -25,7 +26,7 @@ const Home = () => {
                  <h1>Costomer Reviews (3)</h1> 
                  <div className='img-grid'>
                    {
-                       products.map(product=><Products
+                       sliceRsult.map(product=><Products
                         key={product.id}
                         product={product}
                        > 
