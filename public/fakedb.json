@@ -5,6 +5,7 @@
         "price": 1000,
         "stock": 20,
         "rating":5,
+        "reviews":"Reviews",
         "review":"characteristics maximize the sporty feel behind the wheel. Its spartan front seats and low-power USB port are notable weak points, but all cabin controls are refreshingly easy to use, and it gets great gas mileage",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH-966X59G9jFR6Y_teQNsKlzAVcPgYFYtbw&usqp=CAU"
       },
@@ -13,6 +14,7 @@
         "name": "BLACK CAR-1",
         "price":2000 ,
         "stock": 20,
+        "reviews":"Reviews",
         "rating":5,
         "review":"The Elantra stands out with its high fuel economy, impressive technology and safety features, and roomy cabin. It's also comfortable and strong on value. The base engine is lackluster but otherwise this is a great pick for a small sedan",
         "img": "https://cdn.wallpapersafari.com/63/19/PJSerV.jpg"
@@ -23,6 +25,7 @@
         "price": 2500,
         "stock": 20,
         "rating":5,
+        "reviews":"Reviews",
         "review":"The Kia Forte sedan has been redesigned for 2019. Overall, it more than satisfies with its mix of great features, attractive style and appealing price.",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnoRCJrdOzyX077mUCGW_-_Qw7B0gQLqlcJzK0qnKCY3cegy-VXqIVITjVH9FLRF4LWEc&usqp=CAU"
       },
@@ -32,6 +35,7 @@
         "price": 3000,
         "stock": 20,
         "rating":5,
+        "reviews":"Reviews",
         "review":"The Honda Civic boasts praiseworthy performance, high fuel economy, excellent passenger space and a refined design. There are a few minor drawbacks, such as elevated road noise on the highway, but overall the Civic is a great pick for a small sedan.",
         "img": "https://www.pngitem.com/pimgs/m/330-3306529_share-this-image-transparent-background-bugatti-veyron-hd.png"
       },
@@ -41,6 +45,7 @@
         "price": 3500,
         "stock": 20,
         "rating":5,
+        "reviews":"Reviews",
         "review":"The redesigned Nissan Versa is more upscale than in years past. Granted, it's still an affordable small sedan. But the Versa is no longer a car you buy only because it's cheap. A comfy ride, plenty of safety features and good fuel economy are highlights.",
         "img": "https://cdn.pixabay.com/photo/2012/04/12/23/48/car-30990__340.png"
       },
@@ -49,6 +54,7 @@
         "name": " ORANGE CAR",
         "price": 4000,
         "stock": 20,
+        "reviews":"Reviews",
         "rating":5 ,
         "review":"Kia should have given the Rio a new name to distance this car from the penalty-box Rios of yesteryear. Today's Rio is a grown-up small car with a relatively pleasant interior",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzeCTgEmUtg9ofYKArANWnFhIuVsXVVX29QdTThNXnVmUPHOpiOHzX29r0nI-Y06u8huk&usqp=CAU"
