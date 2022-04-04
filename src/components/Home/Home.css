@@ -15,3 +15,7 @@
   padding: 10px;
   border-radius: 8px;
 }
+.img-grid{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}

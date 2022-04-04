@@ -3,11 +3,11 @@ import { useNavigate } from 'react-router-dom';
 import Review from '../Review/Review';
 import './Home.css'
 const Home = () => {
-  const [cars,setCars]=useState([])
+  const [products,setProducts]=useState([])
   useEffect(()=>{
       fetch('fakedb.json')
       .then(res => res.json())
-      .then(data =>  setCars(data))
+      .then(data =>  setProducts(data))
   },[])
    let navegat =useNavigate()
     return (
@@ -27,16 +27,17 @@ const Home = () => {
                  </div>
                  </div>  
                  <h1>Costomer Reviews (3)</h1> 
-                 {
-               cars.map(car=><Review
-                   key={car.id}
-                   car={car}
-                  > 
-           </Review>)
-   }
-                
-                <button onClick={()=>navegat('/blogs')} className='review-btn'
- >                See All Reviews</button>
+                 <div className='img-grid'>
+                   {
+                       products.map(product=><Review
+                        key={product.id}
+                        product={product}
+                       > 
+                    </Review>)
+                   }
+
+                 </div>
+                <button onClick={()=>navegat('/blogs')} className='review-btn'>See All Reviews</button>
                  </div>  
     );
 };

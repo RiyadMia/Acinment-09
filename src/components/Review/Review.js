@@ -1,12 +1,13 @@
 import React from 'react';
 import './Review.css'
 const Review = (props) => {
-     console.log(props)
-    const {name,img,price}=props.car
+    const {name,img,price}=props.product
+    
     return (
         <div className='review-cointanir'>
-            <img className='img-d' src={img} alt="" />
-            <h1>welcome to Review .</h1>
+           <img className='img-d' src={img} alt="" /> 
+          <h3>{name}</h3>
+          <h2>{price}</h2>
         </div>
     );
 };
