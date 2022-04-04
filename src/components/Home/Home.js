@@ -8,7 +8,7 @@ const Home = () => {
   const sliceRsult =products.slice(0,3)
    let navegat =useNavigate()
     return (
-        <div>
+        <div className='container'>
              <div className="home-contanier">
                  <div className="cars-name">
                    <h1 className='cars-f'>My Favarites Cars</h1>
