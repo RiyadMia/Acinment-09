@@ -39,12 +39,12 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This section has moved here: [https://github.com/programming-hero-web-course-4/product-analysis-website-RiyadMia](https://github.com/programming-hero-web-course-4/product-analysis-website-RiyadMia)
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This section has moved here: [https://github.com/programming-hero-web-course-4/product-analysis-website-RiyadMia](https://github.com/programming-hero-web-course-4/product-analysis-website-RiyadMia)
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://cars-shoping-acinment-9.netlify.app/](https://cars-shoping-acinment-9.netlify.app/)

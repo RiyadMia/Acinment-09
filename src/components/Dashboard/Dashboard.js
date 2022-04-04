@@ -44,14 +44,16 @@ const Dashboard = () => {
     return (
         <div className='grap-container'>
       <div className='grap'>
+          <h2>MONTH WISE SELL</h2>
             <LineChart width={400} height={300} data={data}>
-                <Line dataKey={'investment'}></Line>
+                <Line dataKey={'sell'}></Line>
                 <XAxis dataKey='month'></XAxis>
                 <YAxis></YAxis>
                 <Tooltip />
             </LineChart>
  </div>
       <div className='margin-right'>
+          <h2>Revenue VS month </h2>
       <BarChart width={400} height={300} data={data}>
          <XAxis dataKey="month" stroke="#8884d8" />
          <YAxis />
