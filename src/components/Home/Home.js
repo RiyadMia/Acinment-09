@@ -11,7 +11,8 @@ const Home = () => {
         <div>
              <div className="home-contanier">
                  <div className="cars-name">
-                   <h1>Classic car insurance to protect the cars you love</h1>
+                   <h1 className='cars-f'>My Favarites Cars</h1>
+                   <h1 className='heder-name'>Classic car insurance to protect the cars you love</h1>
                    <br />
                    <br />
                    <p> 
@@ -23,7 +24,7 @@ const Home = () => {
                     <img src="https://www.hagerty.co.uk/wp-content/uploads/2021/09/Classic-Car-1-scaled.jpg" alt="" /> 
                  </div>
                  </div>  
-                 <h1>Costomer Reviews (3)</h1> 
+                 <h1 className='costoms'>Costomer Reviews (3)</h1> 
                  <div className='img-grid'>
                    {
                        sliceRsult.map(product=><Products

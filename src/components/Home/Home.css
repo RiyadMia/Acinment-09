@@ -5,6 +5,13 @@
 .cars-name p {
   margin-right: 30px;
 }
+.cars-f{
+  color: rgb(226, 158, 32);
+  font-size: 50px;
+}
+.heder-name{
+  color: rgb(103, 158, 140);
+}
 .bast-cars img {
   width: 500px;
   height: 400px;
@@ -18,4 +25,7 @@
 .img-grid{
   display: grid;
   grid-template-columns: repeat(3,1fr);
+}
+.costoms{
+  color: orange;
 }
